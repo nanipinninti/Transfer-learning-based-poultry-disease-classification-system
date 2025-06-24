@@ -1,0 +1,26 @@
+# Ignore virtual environments
+venv/
+.venv/
+
+# Ignore TensorFlow version manager folder
+tfenv/
+
+# Ignore Python cache and logs
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Ignore Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore large model files (optional)
+*.h5
+*.pb
+*.tflite
+
+# Ignore OS/editor files
+.DS_Store
+*.swp
+.idea/
+.vscode/
